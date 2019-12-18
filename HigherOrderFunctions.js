@@ -16,3 +16,13 @@ const names = ['jane', 'nao', 'kaede', 'hamada', 'matsumoto']
 names.forEach(name => {
    console.log(name)
 })
+
+const loves = ['💔', '💓']
+const myLoves = loves.map(love => {
+    if (love === '💔') {
+        return '😱'
+    } else if (love === '💓') {
+        return '😍'
+    }
+})
+cconsole.log(myLoves)
