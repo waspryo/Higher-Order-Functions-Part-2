@@ -10,4 +10,9 @@ function logResult(result) {
 }
 
 fetch(url).then(resJSON).then(logResult)
-　　
+
+const names = ['jane', 'nao', 'kaede', 'hamada', 'matsumoto']
+
+names.forEach(name => {
+   console.log(name)
+})
