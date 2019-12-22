@@ -85,3 +85,17 @@ const animalSize = animals.filter(animal => {
     return animal.size === 'small'
 })
 console.log(animalSize)
+
+const words = [
+    'spray',
+    'limit',
+    'elite',
+    'exuberant',
+    'destruction',
+    'present',
+]
+// const wordWithLength = words.filter(word => {
+//     return word.length >= 6
+// })
+const wordWithLength = words.filter(word => word.length >= 6)
+console.log(wordWithLength)
