@@ -44,7 +44,26 @@ let numbers = [1,2,3,4,5,6,7,8,,9,10]
  ]
 
 const weekday = days.filter(day => {
-    // return day[0] ==cat= 'T'
+    return day[0] === 'T'
     return day.charAt[0] === 'T'
 })
 console.log(weekday)
+
+const people = [{
+    first_name: 'John',
+    last_name: 'Cone',
+}, {
+    first_name: 'marbelic',
+    last_name: 'Sou',
+}, {
+    first_name: 'Yosemite',
+    last_name: 'Boolean',
+}, {
+    first_name: 'kary',
+    last_name: 'dog',
+}]
+
+const namesLetter = people.filter(name => {
+    return name.first_name.length && name.last_name.length <= 4
+})
+console.log(namesLetter)
