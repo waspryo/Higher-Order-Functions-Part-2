@@ -67,3 +67,21 @@ const namesLetter = people.filter(name => {
     return name.first_name.length && name.last_name.length <= 4
 })
 console.log(namesLetter)
+
+const animals = [{
+    name: 'cat',
+    size: 'small'
+}, {
+    name: 'dog',
+    size: 'small'   
+}, {
+    name: 'hourse',
+    size: 'midium'
+}, {
+    name: 'gozzila',
+    size: 'big'
+}]
+const animalSize = animals.filter(animal => {
+    return animal.size === 'small'
+})
+console.log(animalSize)
