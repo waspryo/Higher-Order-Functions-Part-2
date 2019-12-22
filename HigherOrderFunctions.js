@@ -14,7 +14,7 @@ fetch(url).then(resJSON).then(logResult)
 const names = ['jane', 'nao', 'kaede', 'hamada', 'matsumoto']
 
 names.forEach(name => {
-   console.log(name)
+   console.log(name) 
 })
 
 const loves = ['💔', '💓']
@@ -32,3 +32,19 @@ let numbers = [1,2,3,4,5,6,7,8,,9,10]
      return number % 2 === 0;
  }))
  console.log(evenNumbers)
+
+ const days = [
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+ ]
+
+const weekday = days.filter(day => {
+    // return day[0] ==cat= 'T'
+    return day.charAt[0] === 'T'
+})
+console.log(weekday)
